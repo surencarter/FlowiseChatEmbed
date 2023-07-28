@@ -51,17 +51,17 @@ export const Badge = (props: Props) => {
       "text-align": 'center',
       color: props.poweredByTextColor ?? defaultTextColor,
       "background-color": props.badgeBackgroundColor ?? '#ffffff'
-    }}>Powered By 
+    }}>For any Automation Connect with
       <a
         ref={liteBadge}
-        href={'https://www.surensoftware.com'}
+        href={'mailto:spakkirappagari@gainsight.com'}
         target="_blank"
         rel="noopener noreferrer"
         class="lite-badge"
         id="lite-badge"
         style={{ "font-weight": 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> Suren Software</span>
+        <span> me </span>
       </a>
     </span>
   )
